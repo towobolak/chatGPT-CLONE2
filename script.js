@@ -1,12 +1,9 @@
-// document.getElementById('toggleButton').addEventListener('click', function() {
-//     const form1 = document.getElementById('form1');
-//     const form2 = document.getElementById('form2');
+const header1 = document.getElementById('header1');
+const header3 = document.getElementById('header3');
+const password = document.getElementById('password');
 
-//     if (form1.style.display === 'none') {
-//       form1.style.display = 'block';
-//       form2.style.display = 'none';
-//     } else {
-//       form1.style.display = 'none';
-//       form2.style.display = 'block';
-//     }
-//   });
+let passsword = function(){
+    header3.style.display = 'block';
+    password.style.display = 'block';
+    header1.style.display = 'none';
+}
